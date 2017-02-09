@@ -94,6 +94,9 @@ library
                  , time
                  , case-insensitive
                  , wai
+                 , serversession
+                 , serversession-backend-redis
+                 , serversession-frontend-yesod
 
 executable         serversession-backend-redis-with-yesod-error
     if flag(library-only)
